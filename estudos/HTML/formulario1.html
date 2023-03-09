@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadastro dos astronautas</title>
+</head>
+<body>
+  <h1>Cadastro dos astronautas</h1>
+  <form>
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome"><br><br>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha"><br><br>
+    </div>
+    <div>
+      <label for="nascimento">Data de Nascimento</label>
+      <input type="date" id="nascimento">
+      <label for="foto">Foto:</label>
+      <input type="file" id="foto"><br><br>
+    </div>
+    <div>
+      <label for="nacionalidade">Nacionalidade:</label>
+      <input list="nacionalidade">
+      <datalist id="nacionalidade">
+      <option value="Brasileiro">
+      <option value="Portugues">
+      <option value="Espanhol">
+      <option value="Ingles">
+      <option value="Alemão">
+      </datalist>
+      <label for="sexo">Sexo:</label>
+      <input type="radio" id="sexo" name="sexo" value="M">Masculino
+      <input type="radio" id="sexo" name="sexo" value="F">Feminino<br><br>
+    </div>
+    <div>
+      <p>Suas principais qualidades</p>
+      Inteligencia<input type="checkbox" name="inteligencia">
+      | Resiliencia<input type="checkbox" name="resiliencia">
+      | Preparo fisico<input type="checkbox" name="fisico">
+      | Educacao<input type="checkbox" name="educacao">|<br>
+      <textarea name="mensagem" rows="10" cols="30">Porque voce gostaria de ser um programador?
+      </textarea>
+    </div>
+    <div>
+      <input type="submit" value="Criar">
+    </div>
+  </form>
+</body>
+</html>

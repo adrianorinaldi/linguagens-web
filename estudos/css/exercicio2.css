@@ -1,0 +1,26 @@
+*{
+  background-color: rgb(77, 80, 77);
+}
+
+h1{
+  color: aliceblue;
+}
+
+h2{
+  background-color: yellow;
+  color: black;
+  border:2px solid black;
+}
+
+h1 + h3{
+  color: yellow;
+}
+
+li{
+  color: white;
+}
+
+#destaque{
+  color:red;
+}
+

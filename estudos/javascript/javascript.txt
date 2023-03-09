@@ -1,0 +1,24 @@
+/////criar uma variavel
+let nome = "adriano"
+
+///colocar comentario
+//
+ou /**/
+
+//mostrar mensagem na tela
+console.log(nome)
+//mostrar mensagem de erro na tela
+console.error(nome)
+//mensagem de aviso
+console.warn(nome)
+
+///popup
+window.alert(nome)
+
+///popup com campo de input
+window.prompt(nome)
+
+///comparacao == compara só valor
+////comparacao === compara valor e tipo de dado
+///comparacao != compara só valor
+///comparacao !== compara valor e tipo de dado

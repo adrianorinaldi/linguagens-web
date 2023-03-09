@@ -1,0 +1,10 @@
+div{
+  color:blue;
+  border:2px dashed;
+}
+div ul{
+  border: inherit;
+}
+ul li{
+  border:inherit;
+}

@@ -1,0 +1,17 @@
+#data{
+  color:#008080;
+  font-weight:bold;
+}
+
+#corpo{
+  margin:0px 100px 0px 100px;
+  background-color: #fffafa;
+  padding:0px 40px 0px 40px;
+}
+
+hr{
+  margin-left:100px;
+  margin-right: 100px;
+  padding: 0px 0px 0px 0px;
+  background-color: #fffafa;;
+}
